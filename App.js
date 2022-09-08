@@ -83,7 +83,7 @@ export default function App() {
             tittle={"Done"}
             onPress={
               TextValue
-                ? () => SendData()
+                ? () => console.log(TextValue)
                 : () => Alert.alert("Warning", "Kindly fill the comment")
             }
             color={TextValue ? "lightblue" : "lightgrey"}
